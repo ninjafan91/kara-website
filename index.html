@@ -20,23 +20,19 @@
       font-family: 'Raleway', sans-serif;
       color: var(--petrol);
     }
+    .container {
+      max-width: 80%;
+      margin: 0 auto;
+    }
     header {
       display: flex;
       justify-content: flex-end;
-      padding: 1rem;
-      gap: 1rem;
+      padding: 1rem 0;
     }
     .social-icon {
       width: 32px;
       height: 32px;
-      background-color: var(--rose);
-      border-radius: 50%;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      text-decoration: none;
-      color: white;
-      font-weight: bold;
+      margin-left: 0.5rem;
     }
     .logo {
       display: block;
@@ -86,26 +82,26 @@
       text-align: center;
       font-family: 'Great Vibes', cursive;
       font-size: 1.8rem;
-      margin: 2rem;
+      margin: 2rem auto;
+      max-width: 80%;
     }
     .newsletter-text {
       text-align: center;
-      max-width: 600px;
+      max-width: 80%;
       margin: 0 auto 2rem;
     }
     .newsletter-placeholder {
-      width: 100%;
+      width: 80%;
       height: 150px;
       background-color: #ccc;
-      margin-bottom: 3rem;
+      margin: 0 auto 3rem;
     }
     .testimonial-box {
       background-color: var(--petrol);
       color: var(--petrol);
       padding: 2rem;
       margin: 2rem auto;
-      width: 90%;
-      background-clip: padding-box;
+      width: 80%;
     }
     .testimonial-box-inner {
       background-color: var(--creme);
@@ -113,13 +109,14 @@
       min-height: 100px;
     }
     .blog-section {
-      max-width: 800px;
+      max-width: 80%;
       margin: 0 auto;
-      padding: 2rem;
+      padding: 2rem 0;
     }
     .blog-section h2 {
       font-family: 'Great Vibes', cursive;
       font-size: 2rem;
+      font-weight: normal;
       margin-bottom: 1rem;
     }
     .blog-section p {
@@ -139,49 +136,55 @@
   </style>
 </head>
 <body>
-  <header>
-    <a class="social-icon" href="https://www.instagram.com/karabilous/" target="_blank">IG</a>
-    <a class="social-icon" href="https://www.tiktok.com/@kara.bilous" target="_blank">TT</a>
-  </header>
+  <div class="container">
+    <header>
+      <a href="https://www.instagram.com/karabilous/" target="_blank">
+        <img class="social-icon" src="Instagram Logo.png" alt="Instagram">
+      </a>
+      <a href="https://www.tiktok.com/@kara.bilous" target="_blank">
+        <img class="social-icon" src="TikTok Logo.png" alt="TikTok">
+      </a>
+    </header>
 
-  <img class="logo" src="Logo Kara Bilous(2).png" alt="Kara Bilous Logo">
+    <img class="logo" src="Logo Kara Bilous.png" alt="Kara Bilous Logo">
 
-  <nav>
-    <div class="divider"></div>
-    <a class="menu-item" href="#">KARA. UNZENSIERT</a>
-    <div class="divider"></div>
-    <a class="menu-item" href="#">MEINE SPICY WELTEN</a>
-    <div class="divider"></div>
-    <a class="menu-item active" href="#">HOME</a>
-    <div class="divider"></div>
-  </nav>
+    <nav>
+      <div class="divider"></div>
+      <a class="menu-item active" href="#">HOME</a>
+      <div class="divider"></div>
+      <a class="menu-item" href="#">KARA. UNZENSIERT.</a>
+      <div class="divider"></div>
+      <a class="menu-item" href="#">MEINE SPICY WELTEN</a>
+      <div class="divider"></div>
+    </nav>
 
-  <div class="slideshow-placeholder">Slideshow-Platzhalter</div>
+    <div class="slideshow-placeholder">Slideshow-Platzhalter</div>
 
-  <div class="quote">„Hier kommt ein ansprechendes Zitat hin, das neugierig auf die Kurzgeschichte macht, die man als Freebie darunter bekommt.”</div>
+    <div class="quote">„Hier kommt ein ansprechendes Zitat hin, das neugierig auf die Kurzgeschichte macht, die man als Freebie darunter bekommt.”</div>
 
-  <div class="newsletter-text">
-    Wenn du mehr darüber erfahren willst, wie xy, dann hol dir die ganze Geschichte für 0 €. Melde dich hier für meine Love & Lust Letters an, dann bleibst du zu meinen Geschichten immer auf dem Laufenden.
-  </div>
-
-  <div class="newsletter-placeholder"></div>
-
-  <div class="testimonial-box">
-    <div class="testimonial-box-inner">
-      Leserbewertungen-Platzhalter
+    <div class="newsletter-text">
+      Wenn du mehr darüber erfahren willst, wie xy, dann hol dir die ganze Geschichte für 0 €. Melde dich hier für meine Love & Lust Letters an, dann bleibst du zu meinen Geschichten immer auf dem Laufenden.
     </div>
-  </div>
 
-  <div class="blog-section">
-    <h2>Spannendes aus allen Spice-Welten</h2>
-    <p>Auf meinem Blog findest du immer wieder spannende Hintergründe zu spicy Themen. Schau unbedingt vorbei!</p>
-    <div class="blog-article"></div>
-    <div class="blog-article"></div>
-    <div class="blog-article"></div>
-  </div>
+    <div class="newsletter-placeholder"></div>
 
-  <footer>
-    © 2025 Kara Bilous · <a href="#">Impressum</a> · <a href="#">Datenschutzerklärung</a>
-  </footer>
+    <div class="testimonial-box">
+      <div class="testimonial-box-inner">
+        Leserbewertungen-Platzhalter
+      </div>
+    </div>
+
+    <div class="blog-section">
+      <h2>Spannendes aus allen Spice-Welten</h2>
+      <p>Auf meinem Blog findest du immer wieder spannende Hintergründe zu spicy Themen. Schau unbedingt vorbei!</p>
+      <div class="blog-article"></div>
+      <div class="blog-article"></div>
+      <div class="blog-article"></div>
+    </div>
+
+    <footer>
+      © 2025 Kara Bilous · <a href="#">Impressum</a> · <a href="#">Datenschutzerklärung</a>
+    </footer>
+  </div>
 </body>
 </html>
