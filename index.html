@@ -23,12 +23,14 @@
     .container {
       max-width: 80%;
       margin: 0 auto;
+      position: relative;
     }
     .header-icons {
       display: flex;
       justify-content: flex-end;
       padding: 1rem 0;
       gap: 0.5rem;
+      max-width: 100%;
     }
     .social-icon {
       width: 32px;
@@ -101,7 +103,7 @@
       background-color: var(--creme);
       padding: 1rem;
       margin: 2rem auto;
-      width: 80%;
+      width: calc(80% - 200px);
       text-align: center;
       font-style: italic;
       font-size: 1rem;
