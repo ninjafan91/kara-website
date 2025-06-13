@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kara Bilous</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Raleway:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --rose: #B76E79;
+      --petrol: #264653;
+      --creme: #F9F5E9;
+      --gold: #e0c989;
+    }
+    body {
+      margin: 0;
+      background-color: var(--creme);
+      font-family: 'Raleway', sans-serif;
+      color: var(--petrol);
+    }
+    header {
+      display: flex;
+      justify-content: flex-end;
+      padding: 1rem;
+      gap: 1rem;
+    }
+    .social-icon {
+      width: 32px;
+      height: 32px;
+      background-color: var(--rose);
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+    }
+    .logo {
+      display: block;
+      margin: 0 auto;
+      max-width: 350px;
+      height: auto;
+    }
+    nav {
+      text-align: center;
+      margin-top: 1rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 1rem;
+    }
+    .menu-item {
+      padding: 0.5rem 1rem;
+      color: var(--petrol);
+      font-weight: 600;
+      text-transform: uppercase;
+      text-decoration: none;
+      position: relative;
+    }
+    .menu-item.active {
+      background-color: var(--rose);
+      color: white;
+      border-radius: 8px;
+    }
+    .divider {
+      height: 1px;
+      background-color: var(--gold);
+      flex-grow: 1;
+      max-width: 100px;
+    }
+    .slideshow-placeholder {
+      margin: 2rem auto;
+      width: 80%;
+      height: 300px;
+      background-color: #ddd;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-style: italic;
+      color: #777;
+    }
+    .quote {
+      text-align: center;
+      font-family: 'Great Vibes', cursive;
+      font-size: 1.8rem;
+      margin: 2rem;
+    }
+    .newsletter-text {
+      text-align: center;
+      max-width: 600px;
+      margin: 0 auto 2rem;
+    }
+    .newsletter-placeholder {
+      width: 100%;
+      height: 150px;
+      background-color: #ccc;
+      margin-bottom: 3rem;
+    }
+    .testimonial-box {
+      background-color: var(--petrol);
+      color: var(--petrol);
+      padding: 2rem;
+      margin: 2rem auto;
+      width: 90%;
+      background-clip: padding-box;
+    }
+    .testimonial-box-inner {
+      background-color: var(--creme);
+      padding: 1rem;
+      min-height: 100px;
+    }
+    .blog-section {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 2rem;
+    }
+    .blog-section h2 {
+      font-family: 'Great Vibes', cursive;
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+    .blog-section p {
+      margin-bottom: 2rem;
+    }
+    .blog-article {
+      background-color: #eee;
+      height: 200px;
+      margin-bottom: 1rem;
+    }
+    footer {
+      text-align: center;
+      font-size: 0.9rem;
+      padding: 2rem;
+      color: var(--petrol);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <a class="social-icon" href="https://www.instagram.com/karabilous/" target="_blank">IG</a>
+    <a class="social-icon" href="https://www.tiktok.com/@kara.bilous" target="_blank">TT</a>
+  </header>
+
+  <img class="logo" src="Logo Kara Bilous(2).png" alt="Kara Bilous Logo">
+
+  <nav>
+    <div class="divider"></div>
+    <a class="menu-item" href="#">KARA. UNZENSIERT</a>
+    <div class="divider"></div>
+    <a class="menu-item" href="#">MEINE SPICY WELTEN</a>
+    <div class="divider"></div>
+    <a class="menu-item active" href="#">HOME</a>
+    <div class="divider"></div>
+  </nav>
+
+  <div class="slideshow-placeholder">Slideshow-Platzhalter</div>
+
+  <div class="quote">„Hier kommt ein ansprechendes Zitat hin, das neugierig auf die Kurzgeschichte macht, die man als Freebie darunter bekommt.”</div>
+
+  <div class="newsletter-text">
+    Wenn du mehr darüber erfahren willst, wie xy, dann hol dir die ganze Geschichte für 0 €. Melde dich hier für meine Love & Lust Letters an, dann bleibst du zu meinen Geschichten immer auf dem Laufenden.
+  </div>
+
+  <div class="newsletter-placeholder"></div>
+
+  <div class="testimonial-box">
+    <div class="testimonial-box-inner">
+      Leserbewertungen-Platzhalter
+    </div>
+  </div>
+
+  <div class="blog-section">
+    <h2>Spannendes aus allen Spice-Welten</h2>
+    <p>Auf meinem Blog findest du immer wieder spannende Hintergründe zu spicy Themen. Schau unbedingt vorbei!</p>
+    <div class="blog-article"></div>
+    <div class="blog-article"></div>
+    <div class="blog-article"></div>
+  </div>
+
+  <footer>
+    © 2025 Kara Bilous · <a href="#">Impressum</a> · <a href="#">Datenschutzerklärung</a>
+  </footer>
+</body>
+</html>
