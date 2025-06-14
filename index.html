@@ -25,14 +25,13 @@
       margin: 0 auto;
       position: relative;
     }
-  .header-icons {
-  display: flex;
-  justify-content: flex-end;
-  padding: 1rem 160px 1rem 0; /* Oben, Rechts, Unten, Links */
-  gap: 0.5rem;
-  max-width: 100%;
-}
-
+    .header-icons {
+      display: flex;
+      justify-content: flex-end;
+      padding: 1rem 0;
+      gap: 0.5rem;
+      max-width: 100%;
+    }
     .social-icon {
       width: 32px;
       height: 32px;
@@ -104,7 +103,7 @@
       background-color: var(--creme);
       padding: 1rem;
       margin: 2rem auto;
-      width: calc(80% - 40px);
+      width: calc(80% - 200px);
       text-align: center;
       font-style: italic;
       font-size: 1rem;
@@ -168,7 +167,44 @@
       Wenn du mehr darüber erfahren willst, wie xy, dann hol dir die ganze Geschichte für 0 €. Melde dich hier für meine Love & Lust Letters an, dann bleibst du zu meinen Geschichten immer auf dem Laufenden.
     </div>
 
-    <div class="newsletter-placeholder"></div>
+    <!-- Beginn MailerLite Newsletter-Formular -->
+<div id="mlb2-27217009" class="ml-form-embedContainer ml-subscribe-form ml-subscribe-form-27217009" style="background-color: #F9F5E9; padding: 20px 0;">
+  <div class="ml-form-align-center">
+    <div class="ml-form-embedWrapper embedForm">
+      <div class="ml-form-embedBody ml-form-embedBodyDefault row-form">
+        <div class="ml-form-embedContent">
+          <h4>Newsletter</h4>
+          <p><span style="color: #264653;">Melde dich an und bekomme das Freebie direkt per eMail.</span></p>
+        </div>
+        <form class="ml-block-form" action="https://assets.mailerlite.com/jsonp/1595061/forms/157178114228618245/subscribe" method="post" target="_blank">
+          <div class="ml-form-formContent">
+            <div class="ml-form-fieldRow">
+              <div class="ml-field-group ml-field-name">
+                <input type="text" name="fields[name]" placeholder="Name" autocomplete="given-name">
+              </div>
+            </div>
+            <div class="ml-form-fieldRow ml-last-item">
+              <div class="ml-field-group ml-field-email ml-validate-email ml-validate-required">
+                <input type="email" name="fields[email]" placeholder="E-Mail-Adresse" autocomplete="email" required>
+              </div>
+            </div>
+          </div>
+          <div class="ml-form-embedPermissions">
+            <div class="ml-form-embedPermissionsContent default privacy-policy">
+              <p><span style="color: #264653;">Du kannst dich jederzeit wieder von meinen Love&Lust-Letters abmelden. Selbstverständlich gehe ich sorgsam mit deinen Daten um. Mehr Infos dazu findest du in der Datenschutzerklärung.</span></p>
+            </div>
+          </div>
+          <input type="hidden" name="ml-submit" value="1">
+          <div class="ml-form-embedSubmit">
+            <button type="submit" class="primary" style="background-color: #B76E79; color: white; font-family: 'Raleway', sans-serif; font-size: 20px; font-weight: 700; padding: 10px; border: none; border-radius: 4px; width: 100%;">Ja, ich möchte das Freebie!</button>
+          </div>
+          <input type="hidden" name="anticsrf" value="true">
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Ende MailerLite Newsletter-Formular -->
 
     <div class="testimonial-box">
       Leserbewertungen-Platzhalter
